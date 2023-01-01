@@ -30,6 +30,7 @@ struct Home: View {
                                 Image("Home")
                             }
                         }
+                        .tag(0)
                     
                     // MARK: - Search
                     SearchView()
@@ -46,6 +47,7 @@ struct Home: View {
                                 Image("Search")
                             }
                         }
+                        .tag(1)
                     
                     // MARK: - Notifications
                     NotificationsView()
@@ -62,6 +64,7 @@ struct Home: View {
                                 Image("Notifications")
                             }
                         }
+                        .tag(2)
                     
                     // MARK: - Messages
                     MessagesView()
@@ -78,6 +81,7 @@ struct Home: View {
                                 Image("Messages")
                             }
                         }
+                        .tag(3)
                 }
             }
         }
