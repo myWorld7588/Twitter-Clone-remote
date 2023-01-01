@@ -9,7 +9,36 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack {
+                TabView {
+                    
+                    // MARK: - Feed
+                    Feed()
+                        .tabItem {
+                            Image("Home")
+                        }
+                    
+                    // MARK: - Search
+                    SearchView()
+                        .tabItem {
+                            Image("Search")
+                        }
+                    
+                    // MARK: - Notifications
+                    NotificationsView()
+                        .tabItem {
+                            Image("Notifications")
+                        }
+                    
+                    // MARK: - Messages
+                    MessagesView()
+                        .tabItem {
+                            Image("Messages")
+                        }
+                }
+            }
+        }
     }
 }
 
