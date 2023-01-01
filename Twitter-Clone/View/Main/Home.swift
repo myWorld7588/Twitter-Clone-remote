@@ -83,6 +83,31 @@ struct Home: View {
                         }
                         .tag(3)
                 }
+                
+                // MARK: - Tweet Button
+                VStack {
+                    
+                    Spacer()
+                    
+                    HStack {
+                        
+                        Spacer()
+                        
+                        Button(action: {
+                            // Action
+                        }, label: {
+                            Image("Tweet").renderingMode(.template)
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                                .padding()
+                                .background(Color("bg"))
+                                .foregroundColor(.white)
+                                .clipShape(Circle())
+                        })
+                    }
+                    .padding()
+                } //: VSTACK
+                .padding(.bottom, 60)
             }
         }
     }
