@@ -72,7 +72,7 @@ struct TweetCellView: View {
                 })
                 
                 Button(action: {
-                    // actino upload
+                    // action upload
                 }, label: {
                     Image("upload")
                         .resizable()
@@ -83,11 +83,6 @@ struct TweetCellView: View {
                 
             })
             
-        
-            
-            
-            
-
         } //: VSTACK
     }
 }
