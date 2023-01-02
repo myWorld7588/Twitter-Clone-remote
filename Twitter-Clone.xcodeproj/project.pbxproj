@@ -13,6 +13,7 @@
 		CE07360829632AB100BCEC84 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07360729632AB100BCEC84 /* SearchUserCell.swift */; };
 		CE07360A29633A8700BCEC84 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07360929633A8700BCEC84 /* Extensions.swift */; };
 		CE07360C29633DA900BCEC84 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07360B29633DA900BCEC84 /* NotificationCell.swift */; };
+		CE07360E2963403400BCEC84 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07360D2963403400BCEC84 /* MessageCell.swift */; };
 		CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C93296237AB0035CF8F /* CreateTweetView.swift */; };
 		CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C952962399A0035CF8F /* MultilineTextField.swift */; };
 		CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03552961337500FD82A4 /* Twitter_CloneApp.swift */; };
@@ -33,6 +34,7 @@
 		CE07360729632AB100BCEC84 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		CE07360929633A8700BCEC84 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CE07360B29633DA900BCEC84 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CE07360D2963403400BCEC84 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		CE099C93296237AB0035CF8F /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		CE099C952962399A0035CF8F /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		CE8A03522961337500FD82A4 /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8A03792961371500FD82A4 /* MessagesView.swift */,
+				CE07360D2963403400BCEC84 /* MessageCell.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE07360229627BB600BCEC84 /* TweetCellView.swift in Sources */,
+				CE07360E2963403400BCEC84 /* MessageCell.swift in Sources */,
 				CE0736042962A5EE00BCEC84 /* SearchCell.swift in Sources */,
 				CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */,
 				CE8A0376296136FE00FD82A4 /* SearchView.swift in Sources */,
