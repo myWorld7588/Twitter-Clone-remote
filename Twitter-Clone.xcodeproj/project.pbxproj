@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE07360229627BB600BCEC84 /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07360129627BB600BCEC84 /* TweetCellView.swift */; };
 		CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C93296237AB0035CF8F /* CreateTweetView.swift */; };
 		CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C952962399A0035CF8F /* MultilineTextField.swift */; };
 		CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03552961337500FD82A4 /* Twitter_CloneApp.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE07360129627BB600BCEC84 /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 		CE099C93296237AB0035CF8F /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		CE099C952962399A0035CF8F /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		CE8A03522961337500FD82A4 /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8A0373296136DE00FD82A4 /* Feed.swift */,
+				CE07360129627BB600BCEC84 /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE07360229627BB600BCEC84 /* TweetCellView.swift in Sources */,
 				CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */,
 				CE8A0376296136FE00FD82A4 /* SearchView.swift in Sources */,
 				CE8A03582961337500FD82A4 /* ContentView.swift in Sources */,

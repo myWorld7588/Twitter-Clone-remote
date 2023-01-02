@@ -16,7 +16,7 @@ struct CreateTweetView: View {
             HStack {
                 // MARK: - Cancel
                 Button(action: {
-                    // action
+                    // action cancel
                 }, label: {
                     Text("Cancel")
                 })
@@ -25,7 +25,7 @@ struct CreateTweetView: View {
                 
                 // MARK: - Tweet
                 Button(action: {
-                    // action
+                    // action tweet
                 }, label: {
                     Text("Tweet")
                         .padding()
