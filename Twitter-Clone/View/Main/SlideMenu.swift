@@ -11,6 +11,9 @@ struct SlideMenu: View {
     // toggle chevron
     @State var show = false
     
+    var menuButtons = ["Profile", "Lists", "Topics", "Bookmarks", "Moments"]
+    
+    
     var body: some View {
         VStack {
             HStack(spacing: 0, content: {
@@ -53,17 +56,101 @@ struct SlideMenu: View {
                             }
                         }, label: {
                             Image(systemName: show ? "chevron.down" : "chevron.up")
-                                .foregroundColor(Color("bg"))
+                                .foregroundColor(Color.red)
                         })
                     }) //: HSTACK
                     
+                    VStack(alignment: .leading, content: {
+                        
+                        ForEach(menuButtons, id:\.self) { item in
+                            MenuButton(title: item)
+                        }
+                        
+                        Divider()
+                            .padding(.top)
+                        Button(action: {
+                            
+                        }, label: {
+                            MenuButton(title: "Twitter Ads")
+                        })
+                        
+                        Divider()
+                        
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Settings and privary")
+                                .foregroundColor(.black)
+                        })
+                        
+                        .padding(.top, 20)
+                        
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Help Center")
+                                .foregroundColor(.black)
+                        })
+                        
+                        
+                        Spacer(minLength: 0)
+                        Divider()
+                            .padding(.bottom)
+                        
+                        HStack {
+                            Button(action: {
+                                
+                            }, label: {
+                                Image("help")
+                                    .renderingMode(.template)
+                                    .resizable()
+                                    .frame(width: 26, height: 26)
+                                    .foregroundColor(Color("bg"))
+                                
+                            })
+                            
+                            Spacer(minLength: 0)
+                            
+                            Image("barcode")
+                                .renderingMode(.template)
+                                .resizable()
+                                .frame(width: 26, height: 26)
+                                .foregroundColor(Color("bg"))
+                        }
+                        
+                    }) //: VSTACK
+                    .opacity(show ? 1 : 0)
+                    .frame(height: show ? nil : 0)
                     
+                    VStack(alignment: .leading, content: {
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Create a new account")
+                                .foregroundColor(Color("bg"))
+                        })
+                        
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Add an existing account")
+                                .foregroundColor(Color("bg"))
+                        })
+                        
+                        Spacer(minLength: 0)
+                        
+                    })
                     
-                    
-                    
-                    
-                    
+        
                 }) //: VSTACK
+                
+                .padding(.horizontal, 20)
+                .padding(.top)
+                .padding(.bottom)
+                .background(Color.white)
+                .ignoresSafeArea(.all, edges: .vertical)
+                
+                Spacer(minLength: 0)
             }) //: HSTACK
         } //: VSTACK
     }
