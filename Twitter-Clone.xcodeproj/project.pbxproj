@@ -18,6 +18,7 @@
 		CE073612296349BB00BCEC84 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE073611296349BB00BCEC84 /* MainView.swift */; };
 		CE0736142963B1D100BCEC84 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0736132963B1D100BCEC84 /* SlideMenu.swift */; };
 		CE0736162963B2C700BCEC84 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0736152963B2C700BCEC84 /* FollowView.swift */; };
+		CE0736182963B65C00BCEC84 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0736172963B65C00BCEC84 /* MenuButton.swift */; };
 		CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C93296237AB0035CF8F /* CreateTweetView.swift */; };
 		CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C952962399A0035CF8F /* MultilineTextField.swift */; };
 		CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03552961337500FD82A4 /* Twitter_CloneApp.swift */; };
@@ -43,6 +44,7 @@
 		CE073611296349BB00BCEC84 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE0736132963B1D100BCEC84 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 		CE0736152963B2C700BCEC84 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		CE0736172963B65C00BCEC84 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		CE099C93296237AB0035CF8F /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		CE099C952962399A0035CF8F /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		CE8A03522961337500FD82A4 /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 				CE099C952962399A0035CF8F /* MultilineTextField.swift */,
 				CE0736052963279B00BCEC84 /* SearchBar.swift */,
 				CE0736152963B2C700BCEC84 /* FollowView.swift */,
+				CE0736172963B65C00BCEC84 /* MenuButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				CE07360229627BB600BCEC84 /* TweetCellView.swift in Sources */,
 				CE073612296349BB00BCEC84 /* MainView.swift in Sources */,
+				CE0736182963B65C00BCEC84 /* MenuButton.swift in Sources */,
 				CE07360E2963403400BCEC84 /* MessageCell.swift in Sources */,
 				CE0736042962A5EE00BCEC84 /* SearchCell.swift in Sources */,
 				CE099C94296237AB0035CF8F /* CreateTweetView.swift in Sources */,

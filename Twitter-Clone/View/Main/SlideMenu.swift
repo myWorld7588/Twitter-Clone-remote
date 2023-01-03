@@ -44,6 +44,8 @@ struct SlideMenu: View {
                             
                         }) //: VSTACK
                         
+                        Spacer(minLength: 0)
+                        
                         // chevron button
                         Button(action: {
                             withAnimation{
@@ -54,6 +56,12 @@ struct SlideMenu: View {
                                 .foregroundColor(Color("bg"))
                         })
                     }) //: HSTACK
+                    
+                    
+                    
+                    
+                    
+                    
                     
                 }) //: VSTACK
             }) //: HSTACK
