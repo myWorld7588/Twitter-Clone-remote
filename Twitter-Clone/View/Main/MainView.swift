@@ -33,6 +33,15 @@ struct MainView: View {
                             }
                         }
                 })
+                .gesture(DragGesture().onChanged({(value) in
+                    withAnimation {
+                        if value.translation.width > 0 {
+                            if x < 0 {
+                                x = -width + value.translation.width
+                            }
+                        }
+                    }
+                }))
                 
             }
             .navigationBarHidden(true)
