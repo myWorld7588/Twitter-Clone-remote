@@ -13,6 +13,9 @@ struct SlideMenu: View {
     
     var menuButtons = ["Profile", "Lists", "Topics", "Bookmarks", "Moments"]
     
+    var edges = UIApplication.shared.windows.first?.safeAreaInsets
+    
+    @State var width = UIScreen.main.bounds.width
     
     var body: some View {
         VStack {
@@ -141,12 +144,16 @@ struct SlideMenu: View {
                         
                     })
                     
+                    .opacity(!show ? 1 : 0)
+                    .frame(height: !show ? nil : 0)
+                    
         
                 }) //: VSTACK
                 
                 .padding(.horizontal, 20)
-                .padding(.top)
-                .padding(.bottom)
+                .padding(.top, edges!.top == 0 ? 15 : edges?.top)
+                .padding(.bottom, edges!.bottom == 0 ? 15 : edges?.bottom)
+                .frame(width: width - 90)
                 .background(Color.white)
                 .ignoresSafeArea(.all, edges: .vertical)
                 

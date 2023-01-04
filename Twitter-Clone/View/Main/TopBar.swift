@@ -9,13 +9,14 @@ import SwiftUI
 
 struct TopBar: View {
     
+    @Binding var x: CGFloat
     @State var width = UIScreen.main.bounds.width
 
     var body: some View {
         VStack {
             HStack {
                 Button(action: {
-                    
+                    x = 0
                 }, label: {
                     Image(systemName: "line.horizontal.3")
                         .font(.system(size: 24))
@@ -40,11 +41,5 @@ struct TopBar: View {
                 .opacity(0.3)
         }
         .background(Color.white)
-    }
-}
-
-struct TopBar_Previews: PreviewProvider {
-    static var previews: some View {
-        TopBar()
     }
 }
