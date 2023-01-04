@@ -54,6 +54,10 @@ struct MainView: View {
                         if -x < width / 2 {
                             x = 0
                         }
+                        // Hide_ x is going to be equal to megative width which is the first state of the x
+                        else {
+                            x = -width
+                        }
                     }
                 }))
                 
