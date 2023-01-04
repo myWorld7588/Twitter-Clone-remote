@@ -48,6 +48,13 @@ struct MainView: View {
                             }
                         }
                     }
+                    // if drag x out more than half the width it automatically going to pop up and open slide
+                }).onEnded({ (value) in
+                    withAnimation {
+                        if -x < width / 2 {
+                            x = 0
+                        }
+                    }
                 }))
                 
             }
