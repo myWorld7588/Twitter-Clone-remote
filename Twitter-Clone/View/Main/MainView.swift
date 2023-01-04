@@ -33,11 +33,18 @@ struct MainView: View {
                             }
                         }
                 })
+                // it addes 100pixels which comes from this value to the negative width which hides the slides
                 .gesture(DragGesture().onChanged({(value) in
                     withAnimation {
                         if value.translation.width > 0 {
                             if x < 0 {
                                 x = -width + value.translation.width
+                            }
+                        }
+                        // allow to push it to left side if x is not hidden
+                        else {
+                            if x != -width {
+                                x = value.translation.width
                             }
                         }
                     }
