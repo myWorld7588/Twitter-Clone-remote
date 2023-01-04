@@ -16,7 +16,9 @@ struct TopBar: View {
         VStack {
             HStack {
                 Button(action: {
-                    x = 0
+                    withAnimation {
+                        x = 0
+                    }
                 }, label: {
                     Image(systemName: "line.horizontal.3")
                         .font(.system(size: 24))

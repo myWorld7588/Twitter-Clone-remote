@@ -23,7 +23,9 @@ struct MainView: View {
                         Home()
                     }
                     SlideMenu()
+                        .shadow(color: Color.black.opacity(x != 0 ? 0.1 : 0), radius: 5, x: 5, y: 0)
                         .offset(x: x)
+                        
                 })
                 
             }
