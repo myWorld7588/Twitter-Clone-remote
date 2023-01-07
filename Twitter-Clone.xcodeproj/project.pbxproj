@@ -34,6 +34,8 @@
 		CE8A0376296136FE00FD82A4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A0375296136FE00FD82A4 /* SearchView.swift */; };
 		CE8A03782961370C00FD82A4 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03772961370C00FD82A4 /* NotificationsView.swift */; };
 		CE8A037A2961371500FD82A4 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03792961371500FD82A4 /* MessagesView.swift */; };
+		CEEB55BD296A16FC0050F56E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BC296A16FC0050F56E /* RegisterView.swift */; };
+		CEEB55BF296A17A40050F56E /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		CE8A0375296136FE00FD82A4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		CE8A03772961370C00FD82A4 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		CE8A03792961371500FD82A4 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		CEEB55BC296A16FC0050F56E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 				CE0736152963B2C700BCEC84 /* FollowView.swift */,
 				CE0736172963B65C00BCEC84 /* MenuButton.swift */,
 				CE79BC162969395B001ED759 /* TabButton.swift */,
+				CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				CE79BC1829694031001ED759 /* WelcomeView.swift */,
+				CEEB55BC296A16FC0050F56E /* RegisterView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -333,6 +339,8 @@
 				CE8A0374296136DE00FD82A4 /* Feed.swift in Sources */,
 				CE0736102963485800BCEC84 /* TopBar.swift in Sources */,
 				CE8A03722961345E00FD82A4 /* Home.swift in Sources */,
+				CEEB55BF296A17A40050F56E /* CustomAuthTextField.swift in Sources */,
+				CEEB55BD296A16FC0050F56E /* RegisterView.swift in Sources */,
 				CE0736162963B2C700BCEC84 /* FollowView.swift in Sources */,
 				CE8A037A2961371500FD82A4 /* MessagesView.swift in Sources */,
 				CE62785629666112007106F5 /* UserProfile.swift in Sources */,
