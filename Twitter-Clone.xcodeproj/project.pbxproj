@@ -23,6 +23,7 @@
 		CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE099C952962399A0035CF8F /* MultilineTextField.swift */; };
 		CE62785629666112007106F5 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62785529666112007106F5 /* UserProfile.swift */; };
 		CE6278582966627F007106F5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6278572966627F007106F5 /* BlurView.swift */; };
+		CE79BC172969395B001ED759 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79BC162969395B001ED759 /* TabButton.swift */; };
 		CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03552961337500FD82A4 /* Twitter_CloneApp.swift */; };
 		CE8A03582961337500FD82A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03572961337500FD82A4 /* ContentView.swift */; };
 		CE8A035A2961337600FD82A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A03592961337600FD82A4 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		CE099C952962399A0035CF8F /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		CE62785529666112007106F5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		CE6278572966627F007106F5 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CE79BC162969395B001ED759 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		CE8A03522961337500FD82A4 /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8A03552961337500FD82A4 /* Twitter_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_CloneApp.swift; sourceTree = "<group>"; };
 		CE8A03572961337500FD82A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				CE0736052963279B00BCEC84 /* SearchBar.swift */,
 				CE0736152963B2C700BCEC84 /* FollowView.swift */,
 				CE0736172963B65C00BCEC84 /* MenuButton.swift */,
+				CE79BC162969395B001ED759 /* TabButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */,
 				CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */,
 				CE8A03782961370C00FD82A4 /* NotificationsView.swift in Sources */,
+				CE79BC172969395B001ED759 /* TabButton.swift in Sources */,
 				CE07360C29633DA900BCEC84 /* NotificationCell.swift in Sources */,
 				CE07360A29633A8700BCEC84 /* Extensions.swift in Sources */,
 			);

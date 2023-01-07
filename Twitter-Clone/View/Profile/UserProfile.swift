@@ -80,6 +80,7 @@ struct UserProfile: View {
                                 .padding(.vertical, 10)
                                 .padding(.horizontal)
                                 .background(Capsule().stroke(Color.blue, lineWidth: 1.5))
+                                .padding()
                         })
                         
                     }
@@ -109,6 +110,7 @@ struct UserProfile: View {
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                                 .padding(.leading, 10)
+                            
                             Text("Following")
                                 .foregroundColor(.gray)
 
@@ -124,6 +126,14 @@ struct UserProfile: View {
                         
                     }
                         .frame(width: 0, height: 0), alignment: .top)
+                    
+                    VStack(spacing: 0, content: {
+                        ScrollView(.horizontal, showsIndicators: false, content: {
+                            Text("Button")
+                        })
+                        
+                        Divider()
+                    })
                 
                         
 
