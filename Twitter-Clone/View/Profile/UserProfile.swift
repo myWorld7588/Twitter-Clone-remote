@@ -85,6 +85,32 @@ struct UserProfile: View {
                     }
                     .padding(.top, -25)
                     .padding(.bottom, -10)
+                    
+                    VStack(alignment: .leading, spacing: 8, content: {
+                        Text("Cem")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                        
+                        Text("@Cem_salta")
+                            .foregroundColor(.gray)
+                        
+                        Text("a;sdjfljsdlk;fjsdlfjdsljfdsalfjsd;lfjldskfjsdkl, asldfjlksjfslkdf;, askfjlsjfl;sdjfkl!! ajskdlf.")
+                        
+                        HStack(spacing: 5, content: {
+                            Text("13")
+                                .foregroundColor(.primary)
+                                .fontWeight(.semibold)
+                            
+                            Text("Followers")
+                                .foregroundColor(.gray)
+
+                            Text("680")
+                                .foregroundColor(.gray)
+
+                            
+                        })
+                    })
 
                 }
             }
