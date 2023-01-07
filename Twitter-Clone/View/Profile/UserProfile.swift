@@ -11,6 +11,9 @@ struct UserProfile: View {
     
     @State var offset: CGFloat = 0
     @State var titleOffset: CGFloat = 0
+    @State var CurrentTab = "Tweets"
+    @Namespace var animation
+    @State var tabBarOffset: CGFloat = 0
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
@@ -129,14 +132,32 @@ struct UserProfile: View {
                     
                     VStack(spacing: 0, content: {
                         ScrollView(.horizontal, showsIndicators: false, content: {
-                            Text("Button")
+                            HStack(spacing: 0, content: {
+                                TabButton(title: "Tweets", currentTab: $CurrentTab, animation: animation)
+                                TabButton(title: "Tweets & Likes", currentTab: $CurrentTab, animation: animation)
+                                TabButton(title: "Mediea", currentTab: $CurrentTab, animation: animation)
+                                TabButton(title: "Likes", currentTab: $CurrentTab, animation: animation)
+                            })
                         })
                         
                         Divider()
                     })
-                
-                        
-
+                    
+                    .padding(.top, 30)
+                    .background(Color.white)
+                    .offset(y: tabBarOffset < 90 ? -tabBarOffset + 90 : 0)
+                    .overlay(
+                        GeometryReader { proxy -> Color in
+                            let minY = proxy.frame(in: .global).minY
+                            
+                            DispatchQueue.main.async {
+                                self.tabBarOffset = minY
+                            }
+                            return Color.clear
+                        }
+                            .frame(width: 0, height: 0, alignment: .top)
+                            .zIndex(1)
+                    )
                 }
             }
         }
