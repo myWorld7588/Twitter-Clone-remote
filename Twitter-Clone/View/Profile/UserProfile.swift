@@ -24,15 +24,28 @@ struct UserProfile: View {
                     }
                     
                     return AnyView(
-                        Image("banner")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: UIScreen.main.bounds.width, height: minY > 0 ? 0 : 100, alignment: .center)
-                            .cornerRadius(0)
+                        ZStack {
+                            Image("banner")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: UIScreen.main.bounds.width, height: minY > 0 ? 0 : 100 + minY, alignment: .center)
+                                .cornerRadius(0)
+                            
+                            BlurView()
+                                .opacity(blueViewOpacity())
+                            
+                            
+                            
+                        }
                     )
                 }
             }
         }
+    }
+    
+    func blueViewOpacity() -> Double {
+        let progress = -(offset + 80) / 150
+        return Double(-offset > 80 ? progress : 0)
     }
 }
 
