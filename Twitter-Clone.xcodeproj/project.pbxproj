@@ -36,6 +36,7 @@
 		CE8A037A2961371500FD82A4 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A03792961371500FD82A4 /* MessagesView.swift */; };
 		CEEB55BD296A16FC0050F56E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BC296A16FC0050F56E /* RegisterView.swift */; };
 		CEEB55BF296A17A40050F56E /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */; };
+		CEEB55C1296A19060050F56E /* SecureAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55C0296A19060050F56E /* SecureAuthTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		CE8A03792961371500FD82A4 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		CEEB55BC296A16FC0050F56E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
+		CEEB55C0296A19060050F56E /* SecureAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				CE0736172963B65C00BCEC84 /* MenuButton.swift */,
 				CE79BC162969395B001ED759 /* TabButton.swift */,
 				CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */,
+				CEEB55C0296A19060050F56E /* SecureAuthTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				CE62785629666112007106F5 /* UserProfile.swift in Sources */,
 				CE099C962962399A0035CF8F /* MultilineTextField.swift in Sources */,
 				CE8A03562961337500FD82A4 /* Twitter_CloneApp.swift in Sources */,
+				CEEB55C1296A19060050F56E /* SecureAuthTextField.swift in Sources */,
 				CE79BC1929694031001ED759 /* WelcomeView.swift in Sources */,
 				CE8A03782961370C00FD82A4 /* NotificationsView.swift in Sources */,
 				CE79BC172969395B001ED759 /* TabButton.swift in Sources */,
