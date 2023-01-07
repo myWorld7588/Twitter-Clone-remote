@@ -66,7 +66,7 @@ struct UserProfile: View {
                             .frame(width: 75, height: 75)
                             .clipShape(Circle())
                             .padding(8)
-                            .background(Color.white)
+                            .background(Color.white.clipShape(Circle()))
                             .offset(y: offset < 0 ? getOffset() - 20 : -20)
                             .scaleEffect(getScale())
                         
@@ -106,11 +106,26 @@ struct UserProfile: View {
                                 .foregroundColor(.gray)
 
                             Text("680")
+                                .foregroundColor(.primary)
+                                .fontWeight(.semibold)
+                                .padding(.leading, 10)
+                            Text("Following")
                                 .foregroundColor(.gray)
 
-                            
                         })
                     })
+                    .overlay(GeometryReader { proxy -> Color in
+                        let minY = proxy.frame(in: .global).minY
+                        
+                        DispatchQueue.main.async {
+                            self.titleOffset = minY
+                        }
+                        return Color.clear
+                        
+                    }
+                        .frame(width: 0, height: 0), alignment: .top)
+                
+                        
 
                 }
             }
