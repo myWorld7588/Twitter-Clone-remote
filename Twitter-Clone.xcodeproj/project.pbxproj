@@ -37,6 +37,7 @@
 		CEEB55BD296A16FC0050F56E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BC296A16FC0050F56E /* RegisterView.swift */; };
 		CEEB55BF296A17A40050F56E /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */; };
 		CEEB55C1296A19060050F56E /* SecureAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55C0296A19060050F56E /* SecureAuthTextField.swift */; };
+		CEEB55C3296A1AA90050F56E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB55C2296A1AA90050F56E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		CEEB55BC296A16FC0050F56E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		CEEB55BE296A17A40050F56E /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
 		CEEB55C0296A19060050F56E /* SecureAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextField.swift; sourceTree = "<group>"; };
+		CEEB55C2296A1AA90050F56E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 			children = (
 				CE79BC1829694031001ED759 /* WelcomeView.swift */,
 				CEEB55BC296A16FC0050F56E /* RegisterView.swift */,
+				CEEB55C2296A1AA90050F56E /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE07360229627BB600BCEC84 /* TweetCellView.swift in Sources */,
+				CEEB55C3296A1AA90050F56E /* LoginView.swift in Sources */,
 				CE073612296349BB00BCEC84 /* MainView.swift in Sources */,
 				CE6278582966627F007106F5 /* BlurView.swift in Sources */,
 				CE0736182963B65C00BCEC84 /* MenuButton.swift in Sources */,
